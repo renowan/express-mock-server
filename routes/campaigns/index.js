@@ -10,12 +10,12 @@ const readJson = (filePath) => {
   })
 }
 
-router.get('/myEntryResult', function (req, res, next) {
+router.get('/myResult', function (req, res, next) {
   const { headers, body } = req
   let response = {
     date: "2018-09-03T03:20:32.873Z",
     result: {
-      itemDetailIds: []
+      foo: []
     },
     status: 'ok'
   }
